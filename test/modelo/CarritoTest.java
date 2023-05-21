@@ -28,8 +28,8 @@ public class CarritoTest {
         // TODO review the generated test code and remove the default call to fail.
         if(result != expResult) {
             fail("ERROR: Se esperaba el valor 1");
+        }
     }
-}
     
     @Test
     public void testSetAndGetIdProducto() {
@@ -38,7 +38,7 @@ public class CarritoTest {
         Carrito instance = new Carrito();
         instance.setIdProducto(expResult);
         int result = instance.getIdProducto();
-        assertEquals(expResult, expResult);
+        assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
         if(result != expResult) {
             fail("ERROR: Se esperaba el valor 10004567");
@@ -52,7 +52,7 @@ public class CarritoTest {
         Carrito instance = new Carrito();
         instance.setNombres(expResult);
         String result = instance.getNombres();
-        assertEquals(expResult, expResult);
+        assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
         if(!result.equals(expResult)) {
             fail("ERROR: Se esperaba el valor Producto 1");
@@ -66,7 +66,7 @@ public class CarritoTest {
         Carrito instance = new Carrito();
         instance.setDescripcion(expResult);
         String result = instance.getDescripcion();
-        assertEquals(expResult, expResult);
+        assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
         if(!result.equals(expResult)) {
             fail("ERROR: Se esperaba el valor Descripcion producto 1");
